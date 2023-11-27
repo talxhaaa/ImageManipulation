@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1122</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <widget class="QOpenGLWidget" name="openGLWidget">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>170</y>
+     <width>591</width>
+     <height>371</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>130</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Webcam</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
